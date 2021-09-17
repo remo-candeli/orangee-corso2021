@@ -5,5 +5,4 @@ public class Divisione extends Operazione {
 	{		
 		return getOperando1() / getOperando2();
 	}
-    
 }
