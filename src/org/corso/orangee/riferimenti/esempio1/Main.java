@@ -1,4 +1,4 @@
-package org.corso.orangee.riferimenti;
+package org.corso.orangee.riferimenti.esempio1;
 
 /**
  * Questo esempio mostra come funzionano i riferimenti in java.

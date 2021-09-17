@@ -1,22 +1,15 @@
-package org.corso.orangee.riferimenti.esempio1;
+package org.corso.orangee.riferimenti.esempio2;
 
 public class Persona {
+
     private String nome;
     private String cognome;
-    private String cf;
-    private String residenza;
+    private String genere;
 
-    public Persona(String nome, String cognome) {
+    public Persona(String nome, String cognome, String genere) {
         this.nome = nome;
         this.cognome = cognome;
-    }
-
-
-
-    public Persona(String nome, String cognome, String cf) {
-        this.nome = nome;
-        this.cognome = cognome;
-        this.cf = cf;
+        this.genere = genere;
     }
 
 
@@ -25,7 +18,7 @@ public class Persona {
         return "Persona{" +
                 "nome='" + nome + '\'' +
                 ", cognome='" + cognome + '\'' +
-                ", residenza='" + residenza + '\'' +
+                ", genere='" + genere + '\'' +
                 '}';
     }
 
@@ -36,7 +29,7 @@ public class Persona {
      * system.out.println(qualunque-istanza-della-classe-Persona)
      * E' generabile in automatico da tutti gli IDE (Eclipse, Intellij, ecc.)
      * Puó, ovviamente, essere modificato a piacimento.
-     * L'importante é che non si modofichi mai la firma del metodo.
+     * L'importante é che non si modifichi mai la firma del metodo.
      *
      * @return
      */
@@ -50,11 +43,11 @@ public class Persona {
         return cognome;
     }
 
-    public String getResidenza() {
-        return residenza;
+    public String getGenere() {
+        return genere;
     }
 
-    public void setResidenza(String residenza) {
-        this.residenza = residenza;
+    public void setGenere(String genere) {
+        this.genere = genere;
     }
 }
