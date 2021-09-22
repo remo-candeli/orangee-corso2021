@@ -22,8 +22,8 @@ public abstract class Vendita {
      * La visibilitá protected rende visibile l'elemento all'interno di gerarchie a patto che esse siano tutte
      * incluse in un package a se stante.
      * Questo metodo, in effetti ha il potere di alterare il totale complessivo delle vendite e quindi non
-     * dovrebbe essere usabile nel main!
-     * Solo le classi che si occupano di calcolare il venduto possono utilizzarlo, quindi.
+     * dovrebbe essere usabile nel main perché invaliderebbe quelle effettive.
+     * Solo le classi che si occupano di calcolare il venduto reale possono utilizzarlo.
      */
     protected void setTotaleComplessivoVendite(float totaleComplessivoVendite) {
         this.totaleComplessivoVendite = totaleComplessivoVendite;

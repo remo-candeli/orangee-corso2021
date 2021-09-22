@@ -6,5 +6,4 @@ public class ProdottoNonAlimentare extends Prodotto{
         super(codice, nome, prezzoUnitario);
         super.setScontoPercentuale(0);
     }
-
 }

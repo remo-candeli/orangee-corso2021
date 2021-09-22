@@ -53,7 +53,7 @@ abstract public class Prodotto {
         return scontoPercentuale;
     }
 
-    public void setScontoPercentuale(float scontoPercentuale) {
+    protected void setScontoPercentuale(float scontoPercentuale) {
         this.scontoPercentuale = scontoPercentuale;
     }
 }
