@@ -36,7 +36,7 @@ public class Persona {
      * system.out.println(qualunque-istanza-della-classe-Persona)
      * E' generabile in automatico da tutti gli IDE (Eclipse, Intellij, ecc.)
      * Puó, ovviamente, essere modificato a piacimento.
-     * L'importante é che non si modofichi mai la firma del metodo.
+     * L'importante é che non si modifichi mai la firma del metodo.
      *
      * @return
      */
