@@ -3,15 +3,15 @@ package org.corso.orangee.arrays.esempio;
 public class Main {
 
     public static void main(String[] args) {
-        Persona perona1 = new Persona("Remo", "Candeli", "CNDRME");
-        Persona perona2 = new Persona("Niels", "Bohr", "NLSBHR");
-        Persona perona3 = new Persona("Marie", "Candeli", "MRCRIE");
+        Persona persona1 = new Persona("Remo", "Candeli", "CNDRME");
+        Persona persona2 = new Persona("Niels", "Bohr", "NLSBHR");
+        Persona persona3 = new Persona("Marie", "Candeli", "MRCRIE");
 
         //
         Persona elenco[] = new Persona[10];
-        elenco[0] = perona1;
-        elenco[1] = perona2;
-        elenco[2] = perona3;
+        elenco[0] = persona1;
+        elenco[1] = persona2;
+        elenco[2] = persona3;
 
         // NO! Non si puó fare: elenco vuole solo Persone
         //elencoPersone[3] = "Stringa"; 
